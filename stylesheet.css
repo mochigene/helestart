@@ -1,7 +1,62 @@
-.top-wrapper{
+.wrapper{
     height: 800px;
     width:100%;
     
-    background-image: url(https://github.com/mochigene/helesta.exam/blob/main/%E8%83%8C%E6%99%AF26_20210306122037.PNG?raw=true);
+    background-image:url(https://github.com/mochigene/helestart/blob/main/%E8%83%8C%E6%99%AF26_20210306122037.PNG?raw=true);
     background-size:cover;
+}
+.modal{
+    margin:0 auto;
+    width:30%;
+    
+
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.mark{
+    text-align: center;
+}
+.botan{
+    text-align:center;
+}
+.fa-twitter{
+    color: #fff;
+    position:absolute;
+    top:139px;
+    left:695px
+}
+.fa-youtube{
+    color:#fff;
+    position:absolute;
+    top:138px;
+    left:729px
+}
+.mark{
+    display:inline-block;
+}
+.mark-wrapper{
+    text-align: center;
+}
+
+.circle-twitter{
+    width: 30px;
+    height: 30px;
+    border-radius:100%;
+    background-color:rgb(161, 60, 255)
+}
+.circle:hover{
+    cursor: pointer;
+}
+.fab:hover{
+    cursor:pointer;
+}
+.circle-youtube{
+    width: 30px;
+    height: 30px;
+    border-radius:100%;
+    background-color:rgb(243, 54, 54)
 }
