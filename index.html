@@ -4,15 +4,35 @@
     <meta charset="utf-8">
     <title>ヘルエスタ義務教育テスト</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <title>React App</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 </head>
 <body>
-    <div class="top-wrapper" >
-        <script src="https://unpkg.com/react@17/umd/react.production.min.js" crossorigin></script>
-        <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" crossorigin></script>
-        <script src="stand-by.js"></script>
-
-        <div id="root"></div>
+    
+    <div class="wrapper">
+        <div id="standby"></div>
+        <script src='index.js'></script>
+        
+        <div class="modal">
+            <h1>始める前に</h1>
+            <p></p>
+            
+            <p>出題範囲</p>
+            <div class="mark-wrapper">
+                <div class="mark twitter">
+                    <div class="circle circle-twitter" onclick=location.href="https://twitter.com/lize_helesta?s=21"></div>
+                    <div class="fab fa-twitter" onclick=location.href="https://twitter.com/lize_helesta?s=21"></div>
+                </div>
+                <div class="mark youtube">
+                    <div class="circle circle-youtube" onclick=location.href="https://www.youtube.com/channel/UCZ1xuCK1kNmn5RzPYIZop3w"></div>
+                    <div class="fab fa-youtube" onclick=location.href="https://www.youtube.com/channel/UCZ1xuCK1kNmn5RzPYIZop3w"></div>
+                </div>
+            </div>
+            <div class="botan">
+                <button>もどる</button>
+                <button onclick=location.href="https://mochigene.github.io/helesta.exam/">開始する</button>
+             </div>
+        </div>
+        
        
     </div>
    
