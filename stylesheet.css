@@ -11,9 +11,13 @@
 .modal{
     margin:0 auto;
     width:30%;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255,255, 255, 0.75);
+}
+#modal{
+    display:none;
 }
 .start-button{
+    cursor:pointer;
     border:none;
     border-radius: 10px;
     font-family: Gulim;
@@ -22,24 +26,37 @@
     font-size:15px;
     width:100px;
     height: 50px;
-    margin:15px;
+    margin:50px;
+    box-shadow: 0 3px #1a7940;
+    border: #fff, 39px;
+}
+.start-button:hover{
+    background-color:rgb(32,210,32);
+}
+.start-button:active{
+    box-shadow: none;
+    position:relative;
+    top:3px;
 }
 h1{
     text-align: center;
     letter-spacing: 3px;
     margin-bottom: 0px;
+    margin:15px;
 }
 h2{
     text-align: center;
-    margin-top:30px
+    margin-top:15px;
+    margin-bottom: 10px;
 }
 p{
     text-align: left;
-    margin:15px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right:15px
 }
-.mark{
-    text-align: center;
-}
+
 .botan{
     text-align:center;
 }
@@ -61,12 +78,10 @@ p{
 .mark-wrapper{
     text-align: center;
 }
-
-.circle-twitter{
-    width: 30px;
-    height: 30px;
-    border-radius:100%;
-    background-color:rgb(161, 60, 255)
+a{
+    cursor:pointer;
+    color:rgb(100,70,255);
+    text-align: center;
 }
 .circle:hover{
     cursor: pointer;
@@ -74,15 +89,33 @@ p{
 .fab:hover{
     cursor:pointer;
 }
-.circle-youtube{
+.circle{
     width: 30px;
     height: 30px;
-    border-radius:100%;
-    background-color:rgb(243, 54, 54)
+    position:relative;
+    top:10px
 }
 
 .modal-back{
     width:100%;
-    height:100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    height:120%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position:absolute;
+    top:0px;
+}
+.space{
+    margin:15px;
+}
+#modal-button{
+    width:300px;
+    height: 150px;
+    cursor:pointer;
+    text-align: center;
+    position:absolute;
+    top:600px;
+}
+#modal-button:active{
+    position:relative;
+    top:5px;
+    box-shadow: none;
 }
